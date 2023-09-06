@@ -1,0 +1,20 @@
+# run this script with the --from res/BoatState argument
+# this will restore the previous script
+
+# remove layer 1
+remove 1
+
+# make the new layer 1 opaque
+opaque 1
+
+# create a new layer
+create
+
+# set layer 2 as the current layer
+current 2
+
+# overwrites the program state
+exportall res/BoatState
+
+# exits the program
+quit

@@ -1,0 +1,7 @@
+create
+current 1
+load res/Boat.ppm
+create
+current 1
+load res/Teddy.png
+exportall res/scriptRes

@@ -1,0 +1,15 @@
+create
+current 1
+load res/TeddyBlur.png
+transparent 1
+opaque 1
+create
+current 1
+load res/Teddy.png
+transform sepia
+create
+current 1
+move 2 1
+export res/TeddySepiaTest.png
+remove 1
+exportall res/scriptRes2

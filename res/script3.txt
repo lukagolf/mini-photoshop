@@ -1,0 +1,6 @@
+create
+current 1
+load res/Boat.ppm
+create
+current 1
+test res/Teddy.png

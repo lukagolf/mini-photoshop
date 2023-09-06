@@ -1,0 +1,27 @@
+# create a new layer and load an image
+create
+
+# ppm is inferred from the extension
+load res/Boat.ppm
+
+# create another layer and move it to the back
+create
+move 1 2
+
+# apply sepia + blur to currently selected layer
+transform sepia
+transform blur
+
+# set layer 2 as transparent
+current 2
+load res/Boat.ppm
+transparent 2
+
+# export to jpg, specifying the format
+export res/BoatSepiaBlur.jpg jpg
+
+# save program state to res/BoatState
+exportall res/BoatState
+
+# exits the program
+exit
